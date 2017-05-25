@@ -1,0 +1,3 @@
+        public GaiaDbContext(DbContextOptions<GaiaDbContext> options) : base(options)
+        {
+        }

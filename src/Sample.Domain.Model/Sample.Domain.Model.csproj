@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Gift\Service\" />
+    <Folder Include="Gift\ValueObject\" />
+    <Folder Include="Item\Service\" />
+    <Folder Include="Item\Factory\" />
+    <Folder Include="Tutorial\Entity\" />
+    <Folder Include="Tutorial\ValueObject\" />
+    <Folder Include="User\ValueObject\" />
+    <Folder Include="User\Service\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sample.Domain.Shared\Sample.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Sample.Infra.Core\Sample.Infra.Core.csproj" />
+    <ProjectReference Include="..\Sample.Infra.Interface\Sample.Infra.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
